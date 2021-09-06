@@ -31,6 +31,7 @@ fun showClassement(clubs: ArrayList<String>,limit: Int) {
 }
 
 fun addListOfClub(clubs: ArrayList<String>): Int {
+    //Saya menambahkan data klub bola urut berdasarkan klasemen sementara bulan September 2021
     clubs.add("Tottenham Hotspur")
     clubs.add("West Ham United")
     clubs.add("Manchester United")
