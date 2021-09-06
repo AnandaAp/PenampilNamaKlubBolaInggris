@@ -11,10 +11,10 @@ fun showClassement(clubs: ArrayList<String>,limit: Int) {
         println("$tempRank. ${clubs[i]}")
         print("Class : ")
         val showclubs = { _: ArrayList<String> ->
-            when(i){
-                in 0..9 -> "Top Tier"
-                in 10..14 -> "Black Horse"
-                in 15..limit -> "Beware of Degradation"
+            when(tempRank){
+                in 1..10 -> "Top Tier"
+                in 11..15 -> "Black Horse"
+                in 16..limit -> "Beware of Degradation"
                 else -> false
             }
         }
