@@ -3,7 +3,10 @@ fun main() {
     val limit = addListOfClub(clubs)
     showClassement(clubs,limit)
 }
-
+//ini adalah single comment
+/*
+    ini adalah multiple comment
+ */
 fun showClassement(clubs: ArrayList<String>,limit: Int) {
     println("Premiere League Classement")
     for (i in 0..limit){
