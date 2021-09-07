@@ -6,6 +6,7 @@ fun main() {
 //ini adalah single comment
 /*
     ini adalah multiple comment
+    hehe keren kan
  */
 fun showClassement(clubs: ArrayList<String>,limit: Int) {
     println("Premiere League Classement")
